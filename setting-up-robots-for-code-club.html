@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Code Club Python environment cheat sheet - justaboutfine</title>
+    <title>Setting up robots for Code Club - justaboutfine</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,16 +9,24 @@
 
 
 
-<link rel="canonical" href="/pages/code-club-python-environment-cheat-sheet.html">
+<link rel="canonical" href="/setting-up-robots-for-code-club.html">
 
         <meta name="author" content="jafine" />
-        <meta name="description" content="Last year our Code Club attempts with Python and IDLE were a bit frustrating. Well more frustrating than this year at least :). I noticed that a few things were a bit hard to read and didn&#39;t show up properly, so I&#39;ve fixed those. So put this cheat sheet ..." />
+        <meta name="keywords" content="robots,raspberrypi,python,scratch" />
+        <meta name="description" content="Last year we put together some robots, using a couple of Raspberry Pi 1B computers" />
 
-    <meta property="og:site_name" content="justaboutfine" />
-    <meta property="og:type" content="article"/>
-    <meta property="og:title" content="Code Club Python environment cheat sheet"/>
-    <meta property="og:url" content="/pages/code-club-python-environment-cheat-sheet.html"/>
-    <meta property="og:description" content="Last year our Code Club attempts with Python and IDLE were a bit frustrating. Well more frustrating than this year at least :). I noticed that a few things were a bit hard to read and didn&#39;t show up properly, so I&#39;ve fixed those. So put this cheat sheet ..." />
+        <meta property="og:site_name" content="justaboutfine" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Setting up robots for Code Club"/>
+        <meta property="og:url" content="/setting-up-robots-for-code-club.html"/>
+        <meta property="og:description" content="Last year we put together some robots, using a couple of Raspberry Pi 1B computers"/>
+        <meta property="article:published_time" content="2016-04-20" />
+            <meta property="article:section" content="robots" />
+            <meta property="article:tag" content="robots" />
+            <meta property="article:tag" content="raspberrypi" />
+            <meta property="article:tag" content="python" />
+            <meta property="article:tag" content="scratch" />
+            <meta property="article:author" content="jafine" />
 
 
     <!-- Bootstrap -->
@@ -53,13 +61,13 @@ justaboutfine            </a>
                          <li><a href="/pages/about-this-blog.html">
                              About this blog
                           </a></li>
-                         <li class="active"><a href="/pages/code-club-python-environment-cheat-sheet.html">
+                         <li><a href="/pages/code-club-python-environment-cheat-sheet.html">
                              Code Club Python environment cheat sheet
                           </a></li>
                         <li >
                             <a href="/category/python.html">Python</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="/category/robots.html">Robots</a>
                         </li>
                         <li >
@@ -101,24 +109,58 @@ alt="shopify site analytics"></a></div></noscript>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content" class="body">
-        <h1 class="entry-title">Code Club Python environment cheat sheet</h1>
-        
-        <div class="entry-content">
-            <p>Last year our Code Club attempts with Python and IDLE were a bit frustrating. Well more frustrating than this year at least :). I noticed that a few things were a bit hard to read and didn't show up properly, so I've fixed those.</p>
-<p>So put this cheat sheet next to you while going through the Code Club Python activities. It relates to MacOSX, Windows, or Linux (we've used Raspberry Pis for our Dexter Industries BrickPi EV3, GoPiGo, and Minecraft Python sessions).</p>
-<p>Our environment uses three windows in MacOS and Windows:</p>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/setting-up-robots-for-code-club.html"
+                       rel="bookmark"
+                       title="Permalink to Setting up robots for Code Club">
+                        Setting up robots for Code Club
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2016-04-20T23:35:00+10:00"> Wed 20 April 2016</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/robots.html">robots</a>
+        /
+	<a href="/tag/raspberrypi.html">raspberrypi</a>
+        /
+	<a href="/tag/python.html">python</a>
+        /
+	<a href="/tag/scratch.html">scratch</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>I thought it'd be interesting for our Code Club kids to see behind-the-scenes, and for other Code Club teachers/volunteers to see our process. Firstly, there's some really good <a href="http://www.dexterindustries.com/gopigo-tutorials-documentation/">information provided by Dexter Industries</a>, who make these robots. I've pulled this post together from notes made at the time.</p>
+<p>This post covers the first few steps I went through last year, setting up the GoPiGo robot. Since we have done a bit more Python this year, the aim will be to program this with Python, and our BrickPi robot will be programmed in the older offline version 1.4 Scratch.</p>
+<p>Both these robots are each driven by a Raspberry Pi 1B computer, connected to Dexter Industries boards. We use 12volt battery packs to power these as well as motors and sensors. I'd recommend having them plugged in when programming, since it prevents the batteries from being used as much.</p>
+<p>Anyway I'm getting ahead of myself. Last year we bought a BrickPi board to control our existing Lego EV3 motors with Scratch and Python. The grade 6 kids were divided into teams for a number of robot workshops. In this era of many distractions, a simple <a href="https://infograph.venngage.com/p/60410/brickpi-scratch-and-python-infographic">inforgraphic</a> was a good way to show a high-level idea of how it all sits together with the BrickPi.</p>
+<p>For the workshops, we started by looking at the example Scratch code that comes with the Dexter Industries robot operating system (robotOS; a modded version of Raspbian). From this, we would discover what 'broadcasts' need to be sent from Scratch to the Python script in order to:</p>
 <ul>
-<li>a text editor</li>
-<li>Python shell</li>
-<li>commandline terminal</li>
+<li>move forward and back</li>
+<li>turn left and right using a few different methods</li>
+<li>stop and start</li>
 </ul>
-<p>There's also some cool tricks for having multiple windows when connecting to Linux with ssh, which will get to in a later post!</p>
-<p>The cheatsheet gives examples to make us able to edit and run out Python in different environments. For those who didn't really manage to get much done during our noisy Code Clubs, or something just didn't work, have another go at home when it's quiet. As a few keen people have done, you can download Python 3 from https://python.org. That's probably the easiest to use.</p>
-<p>It also covers running your scripts. I think we're slowly getting better at troubleshooting Python errors :)</p>
-<p>I've put the updated cheat sheet <a href="/pdfs/python_cheat_sheet-v1.1.pdf">here</a></p>
-        </div>
+<p>One script that comes with robotOS is the 'car' script, which allows the robot to be controlled from the keyboard. Since our BrickPi motors are mounted upside-down for a lower centre of gravity, the first task was usually to correct the forward and backward controls. Lessons we'd learned with Scratch activities come in handy when we look at replacing the interactive controls to use a script to control them.</p>
+<p>Once we got to this stage, we needed to read data from the EV3 sensors. This was a bit of a problem as we were never able to get the sensors working properly. Over the holidays, I looked into this and found that we needed a firmware upgrade for the BrickPi to use the EV3 sensors. Again, a script on robotOS assisted with checking the firmware version. After successfully doing the firmware upgrade on the BrickPi, it became apparent that the Python script, that listened to our Scratch broadcasts, was only sending the commands for the older Lego Mindstorms motors. Looking further into this, I found the required commands in some other example scripts on robotOS, and added these to an modded version of the original Python script.</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
