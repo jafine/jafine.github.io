@@ -5,42 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2016-04-22T23:28:44-00:00</lastmod>
+<lastmod>2016-04-27T18:18:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2016-04-22T23:28:44-00:00</lastmod>
+<lastmod>2016-04-27T18:18:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2016-04-22T23:28:44-00:00</lastmod>
+<lastmod>2016-04-27T18:18:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2016-04-22T23:28:44-00:00</lastmod>
+<lastmod>2016-04-27T18:18:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2016-04-22T23:28:44-00:00</lastmod>
+<lastmod>2016-04-27T18:18:27-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2016-04-22T23:28:44-00:00</lastmod>
+<lastmod>2016-04-27T18:18:27-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/scratch-stencyl-and-video-game-programming-competitions.html</loc>
+<lastmod>2016-04-27T17:30:00+10:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -117,14 +124,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/scratch.html</loc>
-<lastmod>2016-04-18T23:04:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/raspberrypi.html</loc>
-<lastmod>2016-04-20T23:35:00+09:40</lastmod>
+<lastmod>2016-04-27T17:30:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,8 +137,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/codeclub.html</loc>
-<lastmod>2016-04-18T23:04:00+09:40</lastmod>
+<loc>/tag/scratch.html</loc>
+<lastmod>2016-04-27T17:30:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -151,15 +151,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/scratch.html</loc>
+<loc>/tag/raspberrypi.html</loc>
 <lastmod>2016-04-20T23:35:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>/tag/stencyl.html</loc>
+<lastmod>2016-04-27T17:30:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/games.html</loc>
+<lastmod>2016-04-27T17:30:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/codeclub.html</loc>
+<lastmod>2016-04-18T23:04:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/author/jafine.html</loc>
-<lastmod>2016-04-20T23:35:00+09:40</lastmod>
+<lastmod>2016-04-27T17:30:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
