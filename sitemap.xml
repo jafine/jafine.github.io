@@ -5,42 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2016-05-03T00:02:45-00:00</lastmod>
+<lastmod>2016-05-03T23:18:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2016-05-03T00:02:45-00:00</lastmod>
+<lastmod>2016-05-03T23:18:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2016-05-03T00:02:45-00:00</lastmod>
+<lastmod>2016-05-03T23:18:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2016-05-03T00:02:45-00:00</lastmod>
+<lastmod>2016-05-03T23:18:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2016-05-03T00:02:45-00:00</lastmod>
+<lastmod>2016-05-03T23:18:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2016-05-03T00:02:45-00:00</lastmod>
+<lastmod>2016-05-03T23:18:04-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/preparing-sd-cards-for-our-code-club-robots.html</loc>
+<lastmod>2016-05-03T22:03:00+10:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -131,7 +138,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/robots.html</loc>
-<lastmod>2016-04-20T23:35:00+09:40</lastmod>
+<lastmod>2016-05-03T22:03:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -139,6 +146,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/category/scratch.html</loc>
 <lastmod>2016-05-02T23:40:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/osx.html</loc>
+<lastmod>2016-05-03T22:03:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -166,7 +180,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/robots.html</loc>
-<lastmod>2016-04-20T23:35:00+09:40</lastmod>
+<lastmod>2016-05-03T22:03:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -208,7 +222,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/jafine.html</loc>
-<lastmod>2016-05-02T23:40:00+09:40</lastmod>
+<lastmod>2016-05-03T22:03:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
