@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Articles by jafine - justaboutfine</title>
+    <title>Saving Scratch game states to cloud data - justaboutfine</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,15 +9,21 @@
 
 
 
+<link rel="canonical" href="/saving-scratch-game-states-to-cloud-data.html">
 
         <meta name="author" content="jafine" />
+        <meta name="keywords" content="scratch" />
+        <meta name="description" content="This week one of our keen Code Club kids asked a question about saving game states to cloud data" />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="justaboutfine" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="justaboutfine"/>
-        <meta property="og:url" content=""/>
-        <meta property="og:description" content="justaboutfine"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Saving Scratch game states to cloud data"/>
+        <meta property="og:url" content="/saving-scratch-game-states-to-cloud-data.html"/>
+        <meta property="og:description" content="This week one of our keen Code Club kids asked a question about saving game states to cloud data"/>
+        <meta property="article:published_time" content="2016-05-05" />
+            <meta property="article:section" content="scratch" />
+            <meta property="article:tag" content="scratch" />
+            <meta property="article:author" content="jafine" />
 
 
     <!-- Bootstrap -->
@@ -61,7 +67,7 @@ justaboutfine            </a>
                         <li >
                             <a href="/category/robots.html">Robots</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="/category/scratch.html">Scratch</a>
                         </li>
             </ul>
@@ -100,37 +106,62 @@ alt="shopify site analytics"></a></div></noscript>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="/moving-from-scratch-to-python.html">Moving from Scratch to Python</a></h2>
-                <div class="summary"><p>A few Code Clubbers have asked "why is Python so boring?"...</p>
-                    <a class="btn btn-default btn-xs" href="/moving-from-scratch-to-python.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="/cloning-sprites.html">Cloning sprites</a></h2>
-                <div class="summary"><p>Yesterday I was looking at some of the grade 5 games programmed in Scratch and they're looking pretty interesting!</p>
-                    <a class="btn btn-default btn-xs" href="/cloning-sprites.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="/term-1-python-roundup.html">Term 1 Python roundup</a></h2>
-                <div class="summary"><p>Concepts we covered</p>
-                    <a class="btn btn-default btn-xs" href="/term-1-python-roundup.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/saving-scratch-game-states-to-cloud-data.html"
+                       rel="bookmark"
+                       title="Permalink to Saving Scratch game states to cloud data">
+                        Saving Scratch game states to cloud data
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2016-05-05T19:05:00+10:00"> Thu 05 May 2016</time>
+    </span>
 
-        <ul class="pagination">
-                <li class="prev"><a href="/author/jafine.html">&laquo;</a>
-                </li>
-                    <li class=""><a
-                            href="/author/jafine.html">1</a></li>
-                    <li class="active"><a
-                            href="/author/jafine2.html">2</a></li>
-                <li class="next disabled"><a href="#">&raquo;</a></li>
-        </ul>
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/scratch.html">scratch</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h2>How do I allow users to save a game state in online Scratch?</h2>
+<p>One of our Code Club kids asked this question last week. So I worked out a simple way to do this. In order for this method to work, you will need to have been upgraded from a New Scratch member to a <a href="https://wiki.scratch.mit.edu/wiki/Scratcher">Scratcher</a>. This will allow you to create up to 10 cloud variables, with each able to contain 10,240 digits.</p>
+<p>This was done pretty quickly, and made it as simple as possible to demonstrate the idea. You can look up two more complex examples at the <a href="https://wiki.scratch.mit.edu/wiki/Cloud_Data">Scratch cloud data documentation page</a>. It's also possible grab various variables such as username from the user's profile, or encode data stored. I've left these as an exercise for the reader. For this tutorial, I've used just two single-digit variables, but it's not a huge leap to store multi-digit or alphabetic data fields as well.</p>
+<h2>Required functions</h2>
+<p>I've set up the following actions (functions):</p>
+<ul>
+<li>intialize: set the pointers, counters, and cloud variables to empty values</li>
+<li>load: load the data, from the cloud data variables, into a list</li>
+<li>save: overwrite the cloud variables with data from our list</li>
+<li>input: allow the user to enter 20 pairs of digits to be stored as cloud data (you could also input to the list, and then use the save action to write to cloud data)</li>
+</ul>
+<p>For all except the input function, I've use a custom block that is set to run in turbo mode. This makes things a bit quicker. Then custom block is called when an assigned key is pressed.</p>
+<p><img alt="turbo mode" class="img-responsive img-rounded" src="/images/run_block_in_turbo_mode.png"/></p>
+<p>This is the initalize code (the user presses <code>i</code>):</p>
+<p><img alt="init" class="img-responsive img-rounded" src="/images/init_cloud_vars.png"/></p>
+<p>This is the load code (the user presses <code>l</code>):</p>
+<p><img alt="load" class="img-responsive img-rounded" src="/images/load_from_cloud.png"/></p>
+<p>This is the save code (the user presses <code>s</code>):</p>
+<p><img alt="save" class="img-responsive img-rounded" src="/images/save_list_to_cloud.png"/></p>
+<p>This is the input code (the user is prompted for single digits):</p>
+<p><img alt="input 20 items of 2 digits each" class="img-responsive img-rounded" src="/images/input_20_sets_of_data.png"/></p>
+<p>Add these scripts and blocks to a single sprite and run it!</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
