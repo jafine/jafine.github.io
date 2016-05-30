@@ -5,49 +5,56 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2016-05-20T00:07:13-00:00</lastmod>
+<lastmod>2016-05-30T23:40:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2016-05-20T00:07:13-00:00</lastmod>
+<lastmod>2016-05-30T23:40:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2016-05-20T00:07:13-00:00</lastmod>
+<lastmod>2016-05-30T23:40:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2016-05-20T00:07:13-00:00</lastmod>
+<lastmod>2016-05-30T23:40:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2016-05-20T00:07:13-00:00</lastmod>
+<lastmod>2016-05-30T23:40:09-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2016-05-20T00:07:13-00:00</lastmod>
+<lastmod>2016-05-30T23:40:09-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/scratch-basics-roundup-slides.html</loc>
-<lastmod>2016-05-20T00:07:13-00:00</lastmod>
+<lastmod>2016-05-30T23:40:09-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/scratch-brickpi-robot-workshop.html</loc>
+<lastmod>2016-05-30T22:32:00+10:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -173,7 +180,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/robots.html</loc>
-<lastmod>2016-05-03T22:03:00+09:40</lastmod>
+<lastmod>2016-05-30T22:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -200,6 +207,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/raspberry-pi.html</loc>
+<lastmod>2016-05-30T22:32:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/tag/python.html</loc>
 <lastmod>2016-05-19T20:41:00+09:40</lastmod>
 <changefreq>daily</changefreq>
@@ -208,14 +222,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/scratch.html</loc>
-<lastmod>2016-05-12T15:24:00+09:40</lastmod>
+<lastmod>2016-05-30T22:32:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/codeclub.html</loc>
+<lastmod>2016-04-18T23:04:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/robots.html</loc>
-<lastmod>2016-05-03T22:03:00+09:40</lastmod>
+<lastmod>2016-05-30T22:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -242,8 +263,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/codeclub.html</loc>
-<lastmod>2016-04-18T23:04:00+09:40</lastmod>
+<loc>/tag/brickpi.html</loc>
+<lastmod>2016-05-30T22:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -257,7 +278,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/jafine.html</loc>
-<lastmod>2016-05-19T20:41:00+09:40</lastmod>
+<lastmod>2016-05-30T22:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
