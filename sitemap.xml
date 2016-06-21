@@ -5,49 +5,56 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2016-06-11T17:52:39-00:00</lastmod>
+<lastmod>2016-06-22T00:42:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2016-06-11T17:52:39-00:00</lastmod>
+<lastmod>2016-06-22T00:42:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2016-06-11T17:52:39-00:00</lastmod>
+<lastmod>2016-06-22T00:42:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2016-06-11T17:52:39-00:00</lastmod>
+<lastmod>2016-06-22T00:42:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2016-06-11T17:52:39-00:00</lastmod>
+<lastmod>2016-06-22T00:42:35-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2016-06-11T17:52:39-00:00</lastmod>
+<lastmod>2016-06-22T00:42:35-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/scratch-basics-roundup-slides.html</loc>
-<lastmod>2016-06-11T17:52:39-00:00</lastmod>
+<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/code-club-and-questions-about-programming.html</loc>
+<lastmod>2016-06-21T17:37:00+10:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -180,7 +187,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/python.html</loc>
-<lastmod>2016-05-19T20:41:00+09:40</lastmod>
+<lastmod>2016-06-21T17:37:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -229,7 +236,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/python.html</loc>
-<lastmod>2016-05-19T20:41:00+09:40</lastmod>
+<lastmod>2016-06-21T17:37:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -251,6 +258,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/tag/wifi.html</loc>
 <lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/programming.html</loc>
+<lastmod>2016-06-21T17:37:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -313,7 +327,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/jafine.html</loc>
-<lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<lastmod>2016-06-21T17:37:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
