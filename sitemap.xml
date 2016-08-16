@@ -5,49 +5,56 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<lastmod>2016-08-16T22:22:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<lastmod>2016-08-16T22:22:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<lastmod>2016-08-16T22:22:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<lastmod>2016-08-16T22:22:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<lastmod>2016-08-16T22:22:02-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<lastmod>2016-08-16T22:22:02-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/scratch-basics-roundup-slides.html</loc>
-<lastmod>2016-06-22T00:42:35-00:00</lastmod>
+<lastmod>2016-08-16T22:22:02-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/scratch-patterns.html</loc>
+<lastmod>2016-07-30T22:57:00+10:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -201,7 +208,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/scratch.html</loc>
-<lastmod>2016-05-12T15:24:00+09:40</lastmod>
+<lastmod>2016-07-30T22:57:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -242,8 +249,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/demo.html</loc>
-<lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<loc>/tag/scratch.html</loc>
+<lastmod>2016-07-30T22:57:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -305,8 +312,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/scratch.html</loc>
-<lastmod>2016-05-30T22:32:00+09:40</lastmod>
+<loc>/tag/demo.html</loc>
+<lastmod>2016-06-09T21:46:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -327,7 +334,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/jafine.html</loc>
-<lastmod>2016-06-21T17:37:00+09:40</lastmod>
+<lastmod>2016-07-30T22:57:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
