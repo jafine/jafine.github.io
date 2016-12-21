@@ -5,63 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/introducing-new-things.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/keep-coding-interesting-for-multiple-skill-levels.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/scratch-basics-roundup-slides.html</loc>
-<lastmod>2016-12-21T19:43:05-00:00</lastmod>
+<lastmod>2016-12-21T19:49:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
