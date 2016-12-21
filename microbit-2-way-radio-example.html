@@ -192,23 +192,23 @@ alt="shopify site analytics"></a></div></noscript>
 <p>Check for single button presses, and increase or decrease the <code>index_num</code> value. Since the if statements are inside the while loop, we need to make sure they are indented (moved right) so they line up with the <code>incoming</code> line above.</p>
 <div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">index_num</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">elif</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">index_num</span> <span class="o">-=</span>  <span class="sb">``</span><span class="err">`</span>
 </pre></div>
 <p>Send the current <code>index_num</code> value, and display 'sending...', if button A and B are pressed together. The str() function converts the number into a character to send. We could really send raw bytes here but I'm trying to keep it simple for now.</p>
-<div class="highlight"><pre><span></span>    <span class="k">elif</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">()</span> <span class="ow">and</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
+<div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">()</span> <span class="ow">and</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">radio</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">index_num</span><span class="p">))</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="s1">'sending...'</span><span class="p">)</span>
 </pre></div>
 <p>If we have an incoming radio broadcast, display the <code>TARGET</code> image, wait for half a second, then convert the incoming data back to a number.</p>
-<div class="highlight"><pre><span></span>    <span class="k">elif</span> <span class="n">incoming</span><span class="p">:</span>
+<div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">incoming</span><span class="p">:</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">TARGET</span><span class="p">)</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">incoming</span><span class="p">)])</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span>
 </pre></div>
 <p>Make sure that <code>index_num</code> stays within the key values for the <code>images</code> dictionary.</p>
-<div class="highlight"><pre><span></span>    <span class="k">elif</span> <span class="n">index_num</span> <span class="o">&gt;</span> <span class="mi">12</span><span class="p">:</span>
+<div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">index_num</span> <span class="o">&gt;</span> <span class="mi">12</span><span class="p">:</span>
         <span class="n">index_num</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="k">elif</span> <span class="n">index_num</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
         <span class="n">index_num</span> <span class="o">=</span> <span class="mi">1</span>
@@ -238,23 +238,23 @@ alt="shopify site analytics"></a></div></noscript>
 
     <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">index_num</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">elif</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">index_num</span> <span class="o">-=</span> <span class="mi">1</span>
 
     <span class="c1"># Send the current emoticon if both buttons pressed together</span>
-    <span class="k">elif</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">()</span> <span class="ow">and</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">()</span> <span class="ow">and</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">radio</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">index_num</span><span class="p">))</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="s1">'sending...'</span><span class="p">)</span>
 
     <span class="c1"># If there's incoming data, show the emoticon that's been received</span>
-    <span class="k">elif</span> <span class="n">incoming</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">incoming</span><span class="p">:</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">TARGET</span><span class="p">)</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">incoming</span><span class="p">)])</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span>
 
     <span class="c1"># Keep the index_num within the valid dictionary key range</span>
-    <span class="k">elif</span> <span class="n">index_num</span> <span class="o">&gt;</span> <span class="mi">12</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">index_num</span> <span class="o">&gt;</span> <span class="mi">12</span><span class="p">:</span>
         <span class="n">index_num</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="k">elif</span> <span class="n">index_num</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
         <span class="n">index_num</span> <span class="o">=</span> <span class="mi">12</span>
