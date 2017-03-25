@@ -193,7 +193,7 @@ alt="shopify site analytics"></a></div></noscript>
 <div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
         <span class="n">index_num</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
-        <span class="n">index_num</span> <span class="o">-=</span>  <span class="sb">``</span><span class="err">`</span>
+        <span class="n">index_num</span> <span class="o">-=</span> <span class="mi">1</span>
 </pre></div>
 <p>Send the current <code>index_num</code> value, and display 'sending...', if button A and B are pressed together. The str() function converts the number into a character to send. We could really send raw bytes here but I'm trying to keep it simple for now.</p>
 <div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">()</span> <span class="ow">and</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
@@ -207,11 +207,11 @@ alt="shopify site analytics"></a></div></noscript>
         <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">incoming</span><span class="p">)])</span>
         <span class="n">sleep</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span>
 </pre></div>
-<p>Make sure that <code>index_num</code> stays within the key values for the <code>images</code> dictionary.</p>
+<p>Make sure that <code>index_num</code> stays within the key values for the <code>images</code> dictionary. In this case, if <code>index_num</code> is too high, we set it back to the first image, and if it gets too low, we set it to the highest image.</p>
 <div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">index_num</span> <span class="o">&gt;</span> <span class="mi">12</span><span class="p">:</span>
         <span class="n">index_num</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="k">elif</span> <span class="n">index_num</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="n">index_num</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="n">index_num</span> <span class="o">=</span> <span class="mi">12</span>
 </pre></div>
 <p>Finally, display the currently selected image from <code>images</code> and wait for half a second.</p>
 <div class="highlight"><pre><span></span>    <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="n">index_num</span><span class="p">])</span>
@@ -284,6 +284,11 @@ alt="shopify site analytics"></a></div></noscript>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="/microbit-2-way-radio-example-adding-audio-alerts.html">
+                            Micro:bit 2-way radio example - adding audio alerts
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="/microbit-2-way-radio-example.html">
                             Micro:bit 2-way radio example
                         </a>
@@ -301,11 +306,6 @@ alt="shopify site analytics"></a></div></noscript>
                     <li class="list-group-item">
                         <a href="/python-gopigo-robot-workshop.html">
                             Python GoPiGo Robot workshop
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="/helping-beginners-learn-to-troubleshoot-their-code.html">
-                            Helping beginners learn to troubleshoot their code
                         </a>
                     </li>
                 </ul>
@@ -384,7 +384,7 @@ alt="shopify site analytics"></a></div></noscript>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2016 jafine
+         <div class="col-xs-10">&copy; 2017 jafine
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>              <p><small>  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
