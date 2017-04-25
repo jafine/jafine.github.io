@@ -5,63 +5,70 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/introducing-new-things.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/keep-coding-interesting-for-multiple-skill-levels.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/scratch-basics-roundup-slides.html</loc>
-<lastmod>2017-03-25T15:33:38-00:00</lastmod>
+<lastmod>2017-04-25T14:48:04-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/first-term-2017-fantastic-volunteers.html</loc>
+<lastmod>2017-04-10T00:00:00+10:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -257,7 +264,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/codeclub.html</loc>
-<lastmod>2016-12-11T22:30:00+09:40</lastmod>
+<lastmod>2017-04-10T00:00:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -390,7 +397,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/codeclub.html</loc>
-<lastmod>2016-12-11T22:30:00+09:40</lastmod>
+<lastmod>2017-04-10T00:00:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -418,7 +425,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/jafine.html</loc>
-<lastmod>2017-03-13T09:40:00+09:40</lastmod>
+<lastmod>2017-04-10T00:00:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
