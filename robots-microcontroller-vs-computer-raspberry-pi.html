@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Micro:bit 2-way radio example - adding audio alerts - justaboutfine</title>
+    <title>Robots - microcontroller vs computer (Raspberry Pi) - justaboutfine</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,20 +10,20 @@
 
     <link href="/images/favicon.png" rel="icon">
 
-<link rel="canonical" href="/microbit-2-way-radio-example-adding-audio-alerts.html">
+<link rel="canonical" href="/robots-microcontroller-vs-computer-raspberry-pi.html">
 
         <meta name="author" content="jafine" />
-        <meta name="keywords" content="python" />
-        <meta name="description" content="With the previous Micro:bit 2-way radio example, we set up Micro:bits that talked to each other by sending data over radio. This is a quick post about adding some features to that code." />
+        <meta name="keywords" content="robots" />
+        <meta name="description" content="A lot of education people seem to be replacing their old Raspberry Pi or Lego Mindstorms robots in the last year or so" />
 
         <meta property="og:site_name" content="justaboutfine" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Micro:bit 2-way radio example - adding audio alerts"/>
-        <meta property="og:url" content="/microbit-2-way-radio-example-adding-audio-alerts.html"/>
-        <meta property="og:description" content="With the previous Micro:bit 2-way radio example, we set up Micro:bits that talked to each other by sending data over radio. This is a quick post about adding some features to that code."/>
-        <meta property="article:published_time" content="2017-03-13" />
-            <meta property="article:section" content="python" />
-            <meta property="article:tag" content="python" />
+        <meta property="og:title" content="Robots - microcontroller vs computer (Raspberry Pi)"/>
+        <meta property="og:url" content="/robots-microcontroller-vs-computer-raspberry-pi.html"/>
+        <meta property="og:description" content="A lot of education people seem to be replacing their old Raspberry Pi or Lego Mindstorms robots in the last year or so"/>
+        <meta property="article:published_time" content="2018-09-14" />
+            <meta property="article:section" content="robots" />
+            <meta property="article:tag" content="robots" />
             <meta property="article:author" content="jafine" />
 
 
@@ -95,17 +95,17 @@ alt="shopify site analytics"></a></div></noscript>
         <div class="col-sm-9">
             <ol class="breadcrumb">
                 <li><a href="" title="justaboutfine"><i class="fa fa-home fa-lg"></i></a></li>
-                <li><a href="/category/python.html" title="python">python</a></li>
-                <li class="active">Micro:bit 2-way radio example - adding audio alerts</li>
+                <li><a href="/category/robots.html" title="robots">robots</a></li>
+                <li class="active">Robots - microcontroller vs computer (Raspberry Pi)</li>
             </ol>
     <section id="content">
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="/microbit-2-way-radio-example-adding-audio-alerts.html"
+                    <a href="/robots-microcontroller-vs-computer-raspberry-pi.html"
                        rel="bookmark"
-                       title="Permalink to Micro:bit 2-way radio example - adding audio alerts">
-                        Micro:bit 2-way radio example - adding audio alerts
+                       title="Permalink to Robots - microcontroller vs computer (Raspberry Pi)">
+                        Robots - microcontroller vs computer (Raspberry Pi)
                     </a>
                 </h1>
             </header>
@@ -115,7 +115,7 @@ alt="shopify site analytics"></a></div></noscript>
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-03-13T09:40:00+11:00"> Mon 13 March 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2018-09-14T09:30:00+10:00"> Fri 14 September 2018</time>
     </span>
 
 
@@ -123,43 +123,21 @@ alt="shopify site analytics"></a></div></noscript>
 
 
 <span class="label label-default">Tags</span>
-	<a href="/tag/python.html">python</a>
+	<a href="/tag/robots.html">robots</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>This post adds onto the <a href="/microbit-2-way-radio-example.html">previous tutorial</a>, so if you haven't already, you shoud go have a look at that first.</p>
-<h2>Adding sound alerts</h2>
-<p>If you've got a speaker connected to your Micro:bit, or have the MI:Power battery add-on that includes a speaker, it's easy to add a sound to alert us of sending or receiving a new emoticon.</p>
-<p>In the original code, we had an <code>if</code> statement that would display the TARGET image, pause, and then display whatever image the incoming index pointed to:</p>
-<div class="highlight"><pre><span></span>    <span class="c1"># If there's incoming data, show the emoticon that's been received</span>
-    <span class="k">if</span> <span class="n">incoming</span><span class="p">:</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">TARGET</span><span class="p">)</span>
-        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">incoming</span><span class="p">)])</span>
-        <span class="n">sleep</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span>
-</pre></div>
-<p>Let's change that to play a couple of short notes, when we detect an incoming radio message. First we'll have to import the music functions for the Micro:bit. So, just after the existing <code>import radio</code> statement, at the top of the code, add the following import:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">music</span>
-</pre></div>
-<p>Now look for the <code>if incoming:</code> code and find the following two lines:</p>
-<div class="highlight"><pre><span></span>        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">Image</span><span class="o">.</span><span class="n">TARGET</span><span class="p">)</span>
-        <span class="n">sleep</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
-</pre></div>
-<p>To play two notes instead of displaying the target and waiting, modify the code as follows:</p>
-<div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">incoming</span><span class="p">:</span>
-        <span class="n">music</span><span class="o">.</span><span class="n">play</span><span class="p">([</span><span class="s2">"C4:2"</span><span class="p">,</span><span class="s2">"D4:5"</span><span class="p">])</span>
-        <span class="c1">#display.show(incoming)</span>
-        <span class="n">display</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">images</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">incoming</span><span class="p">)])</span>
-        <span class="n">sleep</span><span class="p">(</span>
-</pre></div>
-<p>Save the Python code and send it to the Micro:bit. When it receives a message (emoticon), you'll hear it play the two notes and immediately display the emoticon sent.</p>
-<p>The information for the notes are simply stored in a dictionary i.e. a list of pairs, known as tuples, in the format NOTE:DURATION. Because it's a dictionary, we put our NOTE:DURATION pairs inside square brackets, separated by commas.</p>
-<p>Additionally, if you'd like to play some notes when sending an emoticon, you can find the line that checks for both buttons pressed:</p>
-<div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">button_a</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">()</span> <span class="ow">and</span> <span class="n">button_b</span><span class="o">.</span><span class="n">is_pressed</span><span class="p">():</span>
-</pre></div>
-<p>Now place a similar <code>music.play()</code> line after it. To make sure it's within the <code>if</code> statement, remember to indent it. Now when you write this code to the Micro:bit, you'll have sound alerts when you send and receive emoticons.</p>
-<p>If those tones aren't to your liking, you can also use <a href="https://microbit-micropython.readthedocs.io/en/latest/tutorials/speech.html">speech.</a></p>
-<p>For more information on creating sound on the Micro:bit you can find the documentation <a href="https://microbit-micropython.readthedocs.io/en/latest/tutorials/music.html#wolfgang-amadeus-microbit">here.</a></p>
+                <p><img alt="robot types" class="img-responsive img-rounded" src="/images/robots_blur.jpg"/></p>
+<h2>Do You Need an Operating System?</h2>
+<p>Using a small computer that runs an operating system (OS), like the Raspberry Pi for example, adds an overhead which can be uncessary if you're just wanting to turn things on and off, or read whether a pin is set high or low. If you're doing more complex calculations, such as doing live image recognition with open CV, then an operating system might be required. An operating system also takes some time to start up, connect to the network, and any other things it may need to do. A microcontroller board such as an EPS32 or BBC micro:bit will usually boot up relatively fast, and then run a script. Such boards are often relatively lighter, in both physical weight and overheads, and if they just need to read pins for sensor readings or turn things on an off, they're often much simpler to deal with. Most of these just require plugging into a computer to initally write the firmware (maybe the bootloader which essentially hands control to your script on boot, depending on what you're using) and then start running your script as soon as they restart. With a computer, you initially write the whole operating system to a ROM or sdcard, and then maintain that operating system which runs a kernel and a multitude of software packages running on it.
+If you're just teaching a group of kids how to put together a robot and get it to do things, then you might find that a microcontroller robot is a simpler solution. Examples of microcontroller boards used in education include the BBC micro:bit and the Circuit Playground Express, which can both be programmed using MakeCode or a flavour of Python. The corresponding robots for small microcontroller boards are also typically a bit smaller and easier to transport than some of the computer-driven ones.</p>
+<h2>Block-based or Text-based Programming</h2>
+<p>Depending on the age and skills of students, there are various levels at which hardware can be accessed by a robot. For those younger or less skilled an abstraction layer makes things easier. Others may find it simple enough to read a value from a pin that a sensor is connected to, or send a number to change a value sent to a pin to drive a servo. The more experienced may create their own functions to send, receive, and interpret raw bytecode values to hardware devices that do not yet have a library available to interact with them. It's also important to remember that the level of functionality available when a robot 'supports Python' can vary immensely, depending on which incarnation of Python may run on it. Where a Raspberry Pi robot will generally have a more capable version of Python available, most microcontroller boards will usually have a cut-down version such as MicroPython, or Circuit Python, with variances between different hardware running the same language. For example, Circuit Python does not support embedded assembly language, while MicroPython on the micro:bit does; and many functions or importable libraries may be available on a PyBoard but not a micro:bit. The small Edison robots that sport Lego-compatible studs, for instance, can be programmed in Python, but it is a rather limited Python, only accessible from the proprietary software supplied with it. Constraints that may influence the amount of functionality in a programming language implementation include the processing power, amount of memory, and storage available on a piece of hardware.</p>
+<h2>Balancing Budget and Use Cases</h2>
+<p>To get some robots for your code club, maker group, or school usually requires some sort of funding, be it donations, school budget, or just scrounging parts and making your own. For our code club, I ended up donating a couple of old Raspberry Pis we had, and then the school got the robot parts for that first year. I think we also got a Raspberry Pi 2 with a case. We were also able to make use of a Mindstorms and use a Raspberry Pi model B and a Dexter Industries BrickPi to run the EV3 parts. It wasn't an ideal case, but it meant that we could run <a href="/category/robots.html">robot workshops</a> for small groups of students. We were able to show a bit of value to the school wider community by doing some demos of what we'd learned. THis is important, as it can help with getting or maintaining funding, however large or small that may be. Later, I was able to do some introductory coding in <a href="https://makecode.com">MakeCode</a> at a school open night, which got us a small fleet of micro:bits that came from the parents group. This led to the school being able to spend a small amount of money on a few Adafruit Circuit Playground Express boards, and some soft cases to prevent damage to the micro:bits. Other times we were able to get equipment donated for helping out other groups with coding demonstrations. We even got some MakeyMakeys for our efforts. Our young code club kids ended up teaching others too, which led to improvements in what they could learn! 
+We had heaps of small issues to deal with when setting up the robots, from getting them connected to a usable wireless network, and creating cheat sheets for students to navigate the operating system (it helps to keep things clear and simple by including only what is required for the activity). We also had a few issues with the robots being a little less robust than we'd have liked.</p>
+<h2>Create Content and Help Teachers with Coding</h2>
+<p>It helps to make robot activities as easy to replicate as possible; this can be through teacher training, or just putting together good activity sheets with notes on how to set up and run things. Our school has been using the <a href="https://code.org">code.org</a> material to teach some of the Victorian curriculum, but there's also a strong mapping between the <a href="https://codeclubau.org/">Code Club Australia</a> curriculum and the Australian curriculum. They also offer teacher training, which is delivered in a fun and engaging way (I've sat in on some of these and in my opinion, they're very much more about fun while learning, than some of the boring trainings I've seen). At the end of the day, it is just easier for places that may host your code club to justify contributing when they know there is a strong benefit to one of the services they provide; for schools, this means putting on exhibitions for parents, or open nights, or making sure that your robots can be used by teachers to teach. That last point can take a while to achieve, but once we can make coding 101 easy for everyday teachers, we'll be able to get stuck into more interesting and exciting projects in our code clubs/maker groups.</p>
             </div>
             <!-- /.entry-content -->
         </article>
