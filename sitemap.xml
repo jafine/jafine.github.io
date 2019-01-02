@@ -5,63 +5,70 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/introducing-new-things.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/keep-coding-interesting-for-multiple-skill-levels.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/scratch-basics-roundup-slides.html</loc>
-<lastmod>2018-10-06T19:36:21-00:00</lastmod>
+<lastmod>2019-01-02T18:08:30-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/2018-in-review.html</loc>
+<lastmod>2018-12-11T23:10:00+11:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -327,7 +334,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/codeclub.html</loc>
-<lastmod>2018-05-29T21:01:00+09:40</lastmod>
+<lastmod>2018-12-11T23:10:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -354,13 +361,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/demo.html</loc>
-<lastmod>2016-06-09T21:46:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/tag/osx.html</loc>
 <lastmod>2016-05-03T22:03:00+09:40</lastmod>
 <changefreq>daily</changefreq>
@@ -368,7 +368,56 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/spheros.html</loc>
+<loc>/tag/scratch.html</loc>
+<lastmod>2018-12-11T23:10:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/makeymakey.html</loc>
+<lastmod>2018-12-11T23:10:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/networking.html</loc>
+<lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/travel.html</loc>
+<lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/stencyl.html</loc>
+<lastmod>2016-04-27T17:30:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/brickpi.html</loc>
+<lastmod>2016-05-30T22:32:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/demo.html</loc>
+<lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/3dprinting.html</loc>
 <lastmod>2016-05-02T23:40:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -382,13 +431,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/games.html</loc>
-<lastmod>2016-04-27T17:30:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/tag/raspberry-pi.html</loc>
 <lastmod>2016-10-30T17:59:00+09:40</lastmod>
 <changefreq>daily</changefreq>
@@ -397,21 +439,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/python.html</loc>
-<lastmod>2018-07-04T00:00:00+09:40</lastmod>
+<lastmod>2018-12-11T23:10:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/scratch.html</loc>
+<loc>/tag/robots.html</loc>
+<lastmod>2018-09-14T09:30:00+09:40</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/code-club.html</loc>
 <lastmod>2017-06-08T00:00:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/travel.html</loc>
-<lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<loc>/tag/spheros.html</loc>
+<lastmod>2016-05-02T23:40:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -431,13 +480,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/robots.html</loc>
-<lastmod>2018-09-14T09:30:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/tag/raspberrypi.html</loc>
 <lastmod>2016-04-20T23:35:00+09:40</lastmod>
 <changefreq>daily</changefreq>
@@ -452,14 +494,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/brickpi.html</loc>
-<lastmod>2016-05-30T22:32:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/stencyl.html</loc>
+<loc>/tag/games.html</loc>
 <lastmod>2016-04-27T17:30:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -467,14 +502,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/codeclub.html</loc>
-<lastmod>2018-07-04T00:00:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/networking.html</loc>
-<lastmod>2016-06-09T21:46:00+09:40</lastmod>
+<lastmod>2018-12-11T23:10:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -487,22 +515,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/tag/3dprinting.html</loc>
-<lastmod>2016-05-02T23:40:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/code-club.html</loc>
-<lastmod>2017-06-08T00:00:00+09:40</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>/author/jafine.html</loc>
-<lastmod>2018-09-14T09:30:00+09:40</lastmod>
+<lastmod>2018-12-11T23:10:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
