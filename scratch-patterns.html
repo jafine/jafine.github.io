@@ -130,24 +130,24 @@ alt="shopify site analytics"></a></div></noscript>
                 <p>This post is for kids or teachers who have a basic understanding of the Scratch interface. It's really light, and for more detailed information you should always refer to the <a href="https://wiki.scratch.mit.edu/wiki/Scratch_Wiki_Home">Scratch Wiki</a>.</p>
 <h2>How do I make my player move when I press keys?</h2>
 <p>This is probably the most common beginner question I hear at our Code Club. If you asked this, that's great, because it means you're already got an idea of what you want the player to do in your game. Design and planning is a large part of the game-building process and can save you lots of time later on. If you have your main idea clear in your mind (sketching it on paper always helps), it will make many decisions easier to make as you progress. For example, you might not be sure whether to use a script on your sprite or background: But if you refer to your basic idea, you might realise that you can trigger a sound effect at the same time, or some other reason for doing it a certain way.</p>
-<p><img alt="scratch code" class="img-responsive img-rounded" src="/images/scratchblocks_key_controls.png"/></p>
+<p><img alt="scratch code" class="img-responsive" src="/images/scratchblocks_key_controls.png"/></p>
 <p>The code above will move your sprite left and right, when pressing the 'a' or 'd' keys. Following this pattern, you might be able to work out how to move up and down, and do other things when a key is pressed.</p>
 <h2>How do I make the player wrap/stop at the edge of the screen?</h2>
 <p>Here's another common question, "How do I get my sprite to go off one side and come back on the other?". This is known as "wrapping" because the sprite "wraps" around, much like text does.</p>
-<p><img alt="scratch code" class="img-responsive img-rounded" src="/images/scratchblocks_wrap.png"/></p>
+<p><img alt="scratch code" class="img-responsive" src="/images/scratchblocks_wrap.png"/></p>
 <p>This code can just run in the background, sometimes we might also want to set the <code>x</code> and <code>y</code> positions of the sprite, before the <code>forever</code> loop. This makes sure that the sprite will always start in the same place when we click the green flag. Play around with the numbers to figure out how to make the sprite stop at the edges of the screen, instead of wrapping.</p>
 <h2>My sprites aren't in the right place when my program runs!</h2>
 <p>In the same way that we set the <code>x</code> and <code>y</code> positions above, we can also set other attributes of our sprites, such as <code>costume</code>, <code>size</code>, or <code>effect</code>. Make sure you do this before the forever loop, since we only want to do this once when our script runs. Setting things up when our program starts is called 'initialisation'.</p>
 <h2>How do I do gravity?</h2>
 <p>This is essentially a <code>forever</code> loop that keeps changing <code>y</code> by a negative value; always moving our sprite downwards.</p>
-<p><img alt="scratch code" class="img-responsive img-rounded" src="/images/scratchblocks_basic_gravity.png"/></p>
+<p><img alt="scratch code" class="img-responsive" src="/images/scratchblocks_basic_gravity.png"/></p>
 <p>Remember, now that you've got your sprite always moving down, you'll still need to check for a collision with the ground! For the ground, just create a sprite, and draw a line across, then name the sprite something meaningful, like say, 'ground'. Place the sprite at x position 0 and y position 0, to make sure it will line up with your game screen. Then just add a check to the above gravity loop, so your sprite will only go down when not touching the ground.</p>
-<p><img alt="scratch code" class="img-responsive img-rounded" src="/images/scratchblocks_ground.png"/></p>
+<p><img alt="scratch code" class="img-responsive" src="/images/scratchblocks_ground.png"/></p>
 <p>There's an interesting discussion of gravity on the <a href="https://wiki.scratch.mit.edu/wiki/Simulating_Gravity">Scratch wiki</a>, although as I mentioned <a href="/tips-for-designing-your-first-scratch-games.html">previously</a> I really like the way Al Sweigart explains it. If you want to get started there's also a super easy Code Club project, the <a href="https://scratch.mit.edu/projects/39740618/">Dodgeball project</a>.</p>
 <h2>Drawing your own sprites</h2>
 <p>When I wrote the <a href="https://codeclubau.org/moonhack/">Moonhack activity</a> I wanted to create some animal sprites. The way I approached this was to search the Internet for some animals. Noticing that the animal shapes could be built up from basic circles and triangles, I drew some of these and then coloured them in. Once you have the basic shape built up, it's easy enough to add some details. When you want to animate these, just duplicate a sprite, and change it slightly. Then write some code to change the costume at the right times. If you borrow some images you find online, be sure to check whether there is any <a href="http://creativecommons.org.au/learn/fact-sheets/find-cc-materials/">licensing</a> or requirements for attribution (telling people where you got the image from). That way, you won't get 
 an email later from someone who is upset that you didn't give them credit for their work.</p>
-<p><img alt="image" class="img-responsive img-rounded" src="/images/scratch_emu.png"/></p>
+<p><img alt="image" class="img-responsive" src="/images/scratch_emu.png"/></p>
 <h2>Taking these ideas further</h2>
 <p>Although the examples above are just on Scratch, the same ideas can be applied to more advanced projects. In our <a href="/scratch-brickpi-robot-workshop.html">Code Club's robot workshops</a>, we use Scratch and Python to control motors and servos. The motors move the robot around, and rather than checking for Scratch screen borders, we use sensors to see if we are going to bump into a wall. It's essentially the same concept applied to a robot instead of a sprite. Before we set up our sensor, we initially control our robot with keys, much like we do with sprites in Scratch. Our servo is used to move a camera around, and in this case, we check the position of the servo to stop it when it goes too far. So while you're making a game in Scratch, try and think about how the same concepts can be applied to other things, such as robots, lights, or anything we might want to automate. What about automating other checks? Warning: Don't mess with anything that plugs into a power point!</p>
 <h2>Where can I learn more?</h2>
@@ -172,6 +172,11 @@ an email later from someone who is upset that you didn't give them credit for th
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="/a-collaborative-project-work-in-progress.html">
+                            A Collaborative Project - work in progress
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="/python-workshops.html">
                             Python Workshops
                         </a>
@@ -189,11 +194,6 @@ an email later from someone who is upset that you didn't give them credit for th
                     <li class="list-group-item">
                         <a href="/scratch-3-and-starting-a-second-code-club-for-grades-3-and-4.html">
                             Scratch 3 and starting a second code club for grades 3 and 4
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="/2018-in-review.html">
-                            2018 - in review
                         </a>
                     </li>
                 </ul>

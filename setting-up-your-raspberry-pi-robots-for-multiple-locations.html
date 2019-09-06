@@ -185,7 +185,7 @@ if you label each connection using the <code>id_str = “&lt;name to identify lo
 <li>create a makeshift wifi AP from a Raspberry Pi and wifi adapter. I did this recently using a Raspberry Pi Zero and an edumax wifi dongle. It worked really well and was quick to do. This requires the following software: dhcpd (a dhcp server to give out IP addresses, and can support static i.e. always set ones that you know) and hostapd. The last piece of software needs to be a version that supports your wifi dongle so you might just want to <a href="https://www.google.com/search?q=raspberry+pi+access+point">search around</a> to go this route.</li>
 </ul>
 <p>Here's one I set up for a demo recently. It took about 20 minutes but I've done it before. If you're tight on time, and aren't all that technical, go for the other options. Just remember that if you're doing robots without monitors (headless) then you want to be able to know what IP address they'll be using. If you're borrowing the location's network, you may need to port scan. Again if this doesn't make sense just ask someone more knowledgeable than you, like a technical volunteer.</p>
-<p><img alt="Raspberry Pi Zero Wifi AP" class="img-responsive img-rounded" src="/images/rpi_wifi_ap.png"/></p>
+<p><img alt="Raspberry Pi Zero Wifi AP" class="img-responsive" src="/images/rpi_wifi_ap.png"/></p>
 <h2>Configure the Nano text editor on your Pi</h2>
 <p>If you’re connecting via the terminal (using ssh or putty on windows) then nano is probably the easiest to use if you’re new to Linux. You can set the configuration for the nano text editor.</p>
 <p>The options I use are:</p>
@@ -218,6 +218,11 @@ set tabstospaces
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="/a-collaborative-project-work-in-progress.html">
+                            A Collaborative Project - work in progress
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="/python-workshops.html">
                             Python Workshops
                         </a>
@@ -235,11 +240,6 @@ set tabstospaces
                     <li class="list-group-item">
                         <a href="/scratch-3-and-starting-a-second-code-club-for-grades-3-and-4.html">
                             Scratch 3 and starting a second code club for grades 3 and 4
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="/2018-in-review.html">
-                            2018 - in review
                         </a>
                     </li>
                 </ul>

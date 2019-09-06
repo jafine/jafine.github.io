@@ -138,9 +138,9 @@ alt="shopify site analytics"></a></div></noscript>
 <p>Unarchive the downloaded archive:</p>
 <div class="highlight"><pre><span></span>unrar e 2015.03.20_Dexter_Industries_wheezy.rar
 </pre></div>
-<p><img alt="unrar img" class="img-responsive img-rounded" src="/images/unrar_img.png"/></p>
+<p><img alt="unrar img" class="img-responsive" src="/images/unrar_img.png"/></p>
 <p>Then identify which device the SD card is:</p>
-<p><img alt="identify sd card" class="img-responsive img-rounded" src="/images/identify_sd_card.png"/></p>
+<p><img alt="identify sd card" class="img-responsive" src="/images/identify_sd_card.png"/></p>
 <p>Here, the SD card is at <code>/dev/disk5</code>. The command to list devices is <code>diskutil list</code>. Do this before then after inserting the SD card to see where your device is. If the device is mounted, you need to unmount it first with umount <code>diskutil unmountDisk /dev/disk5</code></p>
 <p>You should see:</p>
 <div class="highlight"><pre><span></span>Unmount of all volumes on /dev/disk5 was successful.
@@ -150,10 +150,10 @@ alt="shopify site analytics"></a></div></noscript>
 <p>Writing the SD card is performed with <code>sudo dd bs=1m if=2015.03.20_Dexter_Industries_wheezy.img of=/dev/disk5</code></p>
 <p>Now is a good time to go and grab a drink, and a quick bite to eat.</p>
 <p>On Mac OS X, you can use the <code>control-t</code> key combination to see the time remaining for the write.</p>
-<p><img alt="writing the img" class="img-responsive img-rounded" src="/images/writing_the_img.png"/></p>
+<p><img alt="writing the img" class="img-responsive" src="/images/writing_the_img.png"/></p>
 <h2>Boot it!</h2>
 <p>..and it works! Well, once you put it in the Raspberry Pi and boot it, that is.</p>
-<p><img alt="raspbian for robots desktop" class="img-responsive img-rounded" src="/images/raspbian_for_robots_desktop.png"/></p>
+<p><img alt="raspbian for robots desktop" class="img-responsive" src="/images/raspbian_for_robots_desktop.png"/></p>
 <h2>Configure, backup, then write to other SD cards</h2>
 <p>Of course by this stage, you'll want to go and talk to whoever sets up the wireless, and find out how to configure your Raspberry Pi to the Code Club network. Since Raspbian for Robots is a custom version of <a href="https://www.raspberrypi.org/">Raspbian for Raspberry Pi</a>, your mileage may vary at this point. Refer them to the links in this post and they should soon work it out. Or, just read up on it yourself.</p>
 <p>Once I had the SD card configured and tested, I backed-up the SD card with (replace disk5 with your device as identified above), <code>dd if=/dev/disk5 of=backup_filename.img bs=1024</code>.</p>
@@ -179,6 +179,11 @@ alt="shopify site analytics"></a></div></noscript>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="/a-collaborative-project-work-in-progress.html">
+                            A Collaborative Project - work in progress
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="/python-workshops.html">
                             Python Workshops
                         </a>
@@ -196,11 +201,6 @@ alt="shopify site analytics"></a></div></noscript>
                     <li class="list-group-item">
                         <a href="/scratch-3-and-starting-a-second-code-club-for-grades-3-and-4.html">
                             Scratch 3 and starting a second code club for grades 3 and 4
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="/2018-in-review.html">
-                            2018 - in review
                         </a>
                     </li>
                 </ul>
