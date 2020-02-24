@@ -5,63 +5,70 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/about-this-blog.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/introducing-new-things.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/keep-coding-interesting-for-multiple-skill-levels.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/code-club-python-environment-cheat-sheet.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/pages/scratch-basics-roundup-slides.html</loc>
-<lastmod>2019-09-06T21:19:34-00:00</lastmod>
+<lastmod>2020-02-24T23:20:48-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/getting-more-organised-first-session-for-2020.html</loc>
+<lastmod>2020-02-24T19:32:00+11:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -369,7 +376,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/codeclub.html</loc>
-<lastmod>2019-04-10T10:50:00+09:40</lastmod>
+<lastmod>2020-02-24T19:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -397,14 +404,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/codeclub.html</loc>
-<lastmod>2019-08-19T22:00:00+09:40</lastmod>
+<lastmod>2020-02-24T19:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/python.html</loc>
-<lastmod>2019-08-19T22:00:00+09:40</lastmod>
+<lastmod>2020-02-24T19:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -614,7 +621,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/jafine.html</loc>
-<lastmod>2019-08-19T22:00:00+09:40</lastmod>
+<lastmod>2020-02-24T19:32:00+09:40</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
