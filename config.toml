@@ -1,0 +1,109 @@
+baseurl = "/"
+title = "Justaboutfine"
+languageCode = "en-us"
+paginate = "3" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+pluralizeListTitles = false
+# sectionPagesMenu = 'main'
+timeZone = 'Australia/Melbourne'
+
+[Params.author.name]
+  name = "Jafine"
+  bio = "These are some notes from several years of running a code club in Australia, documenting some of the challenges, wins, fails, and learnings over this time."
+  avatar = "assets/logo.png"
+  dateformat = "January 2, 2006"
+
+[Params]
+  description = "Adventures from a primary school Code Club/Maker Group in Australia" # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = true # Show "Read more" button in list if true
+  authorbox = false
+  pager = true
+  post_meta = [ "author", "date", "categories"] # Order of post meta information
+  mainSections = ["posts"]
+  toc = true
+
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+ # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+
+[Params.logo]
+  subtitle = "Code Club Adventures.." # Logo subtitle
+  image = "img/logo.png"
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search",  "recent", "categories", "taglist",  "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  cached = false # activate cache if true
+  twitter = "justaboutfine"
+  github = "jafine"
+
+[[Params.widgets.social.custom]]
+  title = "The CircuitPython Show"
+  url = "https://www.circuitpythonshow.com/@circuitpythonshow/episodes/martin-tan"
+
+[[Params.widgets.social.custom]]
+  title = "micro:bit Projects With Python and Single Board Computers (book)"
+  url = "https://link.springer.com/book/10.1007/978-1-4842-9197-9"
+
+[[Params.widgets.social.custom]]
+  title = "micro:mag magazine"
+  url = "https://magazines.micromag.cc/"
+
+[frontmatter]
+  # date = ['date']
+  publishDate = ['date']
+
+[menus]
+[[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 12
+[[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menus.main]]
+    identifier = 'posts'
+    name = 'posts'
+    pageRef = '/posts'
+    weight = 14
+[[menus.main]]
+    name = 'Code Club'
+    pageRef = '/codeclub'
+    weight = 20
+[[menus.main]]
+    name = 'Scratch'
+    pageRef = '/scratch'
+    weight = 25
+[[menus.main]]
+    name = 'Python'
+    pageRef = '/python'
+    weight = 30
+[[menus.main]]
+    name = 'Robots'
+    pageRef = '/robots'
+    weight = 40
+[[menus.main]]
+    name = 'Downloadable Resources'
+    pageRef = '/resources'
+    weight = 50

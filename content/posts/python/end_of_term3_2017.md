@@ -1,0 +1,35 @@
++++
+title = "Python Kids - End of Term 3"
+date = "2017-09-22T18:03:00Z"
+tags = ['python', 'programming']
+description = "I'm really proud of the kids that have been working through Python this term.."
++++
+
+
+You may remember from a [previous post](/codeclub/term3_begins.md), that our small sub-group of kids working on Python was picked by finding those that had progressed more than 50% through the Code Club Scratch 2 module. Of those students, a couple opted to stay on Scratch - leaving four that were keen to get started on Python. One student had already done all of Python module 1, which was really great to see.
+
+To get a good idea of what concepts were covered by each activity, I took the Python group to the Code Club UK curriculum skills matrix: https://codeclubprojects.org/en-GB/curriculum/ This turned out to be really useful as students were able to accelerate their progress; while making sure they still got good coverage of skill areas that would allow them to gain a practical amount of Python.
+
+Teachers should also consider looking at the Australian Code Club curriculum skills matrix, since incorporating this well-tested content into the classroom would make teachers' jobs easier, and allow Code Club time to be spent on more advanced projects. Over the few years of running a Code Club, we've really noticed the difference in students grasping concepts and being able to enjoy Code Club much more since the amount of coding in class has been increased. They're struggling less with the basics, and able to have more realistic ideas of what they can create and are quicker to find solutions for problems they face in code. In a nutshell, they're more fluent in translating their ideas into something that can be created using programming, physical making, and making their ideas practical and scalable. This type of technological literacy means that students are probably more likely to be able to model and solve problems in a viable way. An fitting analogy might be the songwriter that can't drum, trying to explain to the drummer what he envisaged for a particular part of a song. The context is in the songwriter's head, but communicating with the drummer is much easier when the songwriter can simply tap out the beat and fills, or even play the part on the drums. There's also a degree of mutual respect that comes from knowing another's craft, if even to only a basic extent.
+
+## Two Python groups for next term
+So our keen group of Python students have been progressing *really* well. We seem to have good coverage of the Code Club UK Python curriculum skills, which was partly driven by the kids themselves, with some asking how to look up the skills matrix after I showed them in previous weeks. So looking forwards - I picked our next group, based on their logged progress with the Code Club Scratch 2 modules. The criteria is essentialy anyone who has completed more than 50% of Scratch 2. This means we'll have another group going through the Python 2 learning modules next term; the original group will be looking at the Sense HAT and the BBC micro:bit. In order to prepare for some presentations of their progress at the beginning of next term, a couple of students did some micro:bit and Sense HAT exercises last term.
+
+## Volunteers training up
+In addition to our two groups of Code Club students, a couple of our volunteers have also been working through the Python exercises. This is a great thing, since we're starting to gain some redundancy so that I'm not the single point of failure, if one week I can't make it to Code Club. Of course there's also volunteers that turn up each week and are ready to pitch in whereever they are needed - this is definitely an equally valuable, and necessary strength to our current team. We also rotate through various teachers that attend each week, two at a time; attitudes vary from the indifferent, to the more eager, however we notice significant enthusiasm and motivation coming from student teachers that attend Code Club during their placements. The latter is very encouraging, since they will be the next generation of teachers.
+
+## An attitude of opportunity
+A different mindset is evident in the students progressing through to Python: They come to see Python as an opportunity, rather than just something they're told to do. Sure, there's days when they might be tired, or struggle a little to focus, but the overall impression is that they choose to attend, and are keen to earn the opportunity to be able to do more each week. What a change this is from previous years! A couple of weeks ago, I was a bit late to Code Club, and was excited to see that the Python kids were still working through their activities, and the more advanced were keen to see if they could carry on with our extra projects involving micro:bit robots and Raspberry Pi computers.
+
+## Catching up - progress rather than comparisons
+Something I try to maintain, is that Code Club is about progress, rather than competition. Often, if someone has missed a week, there may be a sense of disappointment that they might be 'falling behind'. In these cases, after being reassured that everyone is at different stages, students tend to relax a bit more and carry on, enjoying the journey. And since everyone generally misses one or two days being sick or due to other commitments, it seems that things usually balance out by the end of term, anyway. 
+
+## Finding their paths
+Of course, not everyone needs to progress to Python. There's a wealth of content created by Code Club, so it's quite satsifying to keep going with Scratch (I recall that there's 3 Scratch levels now, with additional projects on top. It's always fun to bring out the makey makey, Spheros, and other devices to change things up a bit, every so often. That being said, we've also learned from past experience, that any such diversions should be introduced as such, rather than a full change of path from learning to code, even if coding may start to incorporate makey makey and other devices. With coding as the core enabler, we're able to take students through 3d print design and other such pursuits - I'm patiently awaiting the day when someone finally combines all these components to make a truly hybrid project, in the sense that they program hardware, build prototype physical design to house the hardware and enable specific tasks to be accomplished: a combination of 3d printing, coding, with interesting sensor and motors as the input and output.
+
+In terms of finding their paths, I feel it important that we can support those paths. Thinking back to
+my own school days, I remember scraping the surface of an area of knowledge, only to be told to move on once we'd finished that component of the curriculum. The beauty of Code Club, is that the content is so rich, and because it truly is a club - we are able to empower them to find something in it for themselves.
+
+I wrote this at the start of the term, and now we're nearing the end of term 4. I'll write another current post, as this seemed to take a while and went through a lot of changes and re-edits. I'm posting it for continuity, though.
+
+

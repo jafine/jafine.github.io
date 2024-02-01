@@ -1,0 +1,60 @@
++++
+title = "After Code Club"
+date = "2016-12-11T22:30:00Z"
+tags = ['codeclub']
+description = "At a recent function, we caught up with some of our graduating Code Club students and their families. It gave us a rare opportunity to relax, chat, and reflect on some fun times coding and learning...a what lies beyond"
++++
+
+
+## Code Club parents are great!
+
+While chatting to parents of previous Code Club students and those having had their last Code Club, it was interesting to hear what previous students were up to, what those leaving were looking towards, and glean some insight into ways we could improve. Although we've had a great year overall, it's always good to get feedback and an end-of-year dinner was an opportunity to introduce parents to our other volunteers, and give credit for an exceptional effort this year, and really added so much to a larger code club. It's also a rare chance when students, families, teachers, and volunteers can mix in a relaxed atmosphere. It's one of those times where the clock isn't ticking during a code club session and we aren't all rushing around. Sometimes you may even end up with new volunteers, sponsors, or instroductions to groups with similar interests.
+
+## A wide range of interests outside of Code Club
+
+There was some great positive conversations around the various activities we went through, and interesting insights into students' priorities and time management around their own coding endeavours over the school year. It's great to see that most of our students were able to juggle other sporting or arts-based activities with code club, so that we had a broad range of influences in projects. Much of the variety in students attending code club seems to have come through exposure in assemblies and our other activities, which would also explain the large waiting list we have.
+
+## Code Club is not always limited to coding
+
+Although it wasn't easy between all the school activities that are on, we did manage to get a few excusions and special visits happening this year. As a general rule, the odd pizza night does go down quite well at a code club. Since we run ours after school hours, we usually do a short break before commencing, however after a full day at school, sometimes things can lose focus a little, so the occaisional well-timed treat or other related activity can really contribute to overall morale. Too much of this though, can also make it a little more difficult to keep a consistent focus during projects. We also gave a little more freedom this year and found a point where we needed to reel it in, to keep people progressing with their creative coding skills.
+
+Among some of the other activities we participated in were:
+
+ - Scratch video game writing competion, where we had two students win prizes
+ - Presenting at an inter-school conference
+ - A variety of workshops that involved robotics, using both visual drag-n-drop programming (Scratch) and text-based (Python) incorporating motors and sensors to navigate autonomously
+ - Web applications, with more text-based programming
+ - Other Sphero/Drone programming with Tickle, and 3d design using Tinkercad
+ - Linux operating systems on the Raspberry Pi
+ - Group activities where students were in teams
+ - Designing games from a basic sketched idea on paper, to creating a working prototype to specific set milestones
+ - Regular mentions and demonstrations in school assemblies
+
+## Soft skills + tech skills = win
+
+Another area that received some thumbs up was that a number of our students ended up being chosen to present what they learned in workshops and other code club topics thoughout the year. It's great to learn some programming skills, but being able to communicate these to an outsider, or non-technical audience is definitely an important skill for future jobs. The other area where some of these soft skills did also emerge was in our group activities and general mentoring of the newer students from the more advanced students. And speaking of soft skills did I mention that I learn tons about teaching kids from the teachers at our school too? Although it's really difficult at times combining busy school timetables and work schedules, it is very worthwhile to take the time to meet with primary school teachers (especially if your Code Club is at a school) to go over activities, ideas, and ways of delivering things effectively. It's not uncommon for me to have racked my brains coming up with a rather average way to achieve something, only to get a much easier method by talking to a full-time teacher. And then there's all the really difficult teacher skills that just magically sort out whatever might be tripping up the otherwise smooth learning that would be happening in your Code Club. In Code Clubs where parents may not be able to available, it's often the teachers that can give you background into other environmental factors that may be involved.
+
+![screenshot](/images/mh_scratch_you_did_it.png)
+
+## Post Code Club insights
+
+Since some of the students in our Code Club have alumni siblings, it is interesting to hear from parents what they are doing now. A number of parents enquired about how their kids could continue with technical pursuits after grade 6 (Australia). Although some have continued to develop their skills, some had not, with reasons being a lack of awareness or knowledge about suitable activities by parents. Part of continuing on with these skills is motivation and inspiration, that may have originally come through the regular Code Club sessions.
+
+A good suggestion that came out of these discussions was to have a leaflet sent out to parents, providing them with the following:
+
+- Video podcasts with coding projects, and interesting hardware to play with
+- Recommended books with sufficiently challengning content to carry on the journey that started in Code Club
+- Where to find fun kits and online instructions for projects
+- Suitable game design frameworks and related online tutorials and books
+
+Some of these are useful for alterntive holiday projects, or just an ongoing learning journey. A Code the Future teacher made a good comment earlier this year: saying that between all the main groups teaching these skills, there's a whole lot of kids getting great opportunities to gain useful skills. What we're talking about here isn't just about maintaining an application, or working in IT support roles, but the ability to conceive great ideas and be able to prototype and commuicate these to solve problems and create new products and services. One only has to sit down with a modern developer to know that most aren't devoid of ideas or needing inspiration from an 'ideas' person, but currently implement their ideas in their own startups and open source projects. Marketing and communications does play a huge role in startups, and this is where the presenting, or pitching ideas to audiences and prospective end-users comes in handy. Having said this, some of the limiting factors we encounter in Code Club relate to areas not yet covered in the school curriculum e.g. more advanced calculus, physics, etc. And this is where high school teachers can enable exciting projects that are generally out of scope in our Code Club.
+
+## Passing the torch to high school teachers or maker groups
+
+On our last Code Club for the year, we had a visit from a group of high school teachers at a nearby school. It was great to chat and discuss various challenges and swap experiences. If you're running a Code Club, I'd really encourage you to reach out to those that you will be passing the torch to, as can facilitate knowing what to prepare students for, but also to have a communication channel to transfer what has already been covered and compare expectations. We're looking forward to seeing what Code Club students go on to achieve, and what might be in store for them. We'll definitely be looking to keep in touch and see how we can help each other as our technology programs progress together. 
+
+## Keeping it challenging and avoiding burnout
+
+The progression from the initial excitement about joining a Code Club, through various challenges and subsquent skill acquisition can also be precarious, since unlike a traditional classroom, we ultimately end up with a large variety of skill levels and focusses in our students. If something is too challenging or a student is not ready, they can become frustrated or get burnt out. I talked about tracking progress in a previous post, and talking to parents can also give insight into other factors to take into account with home life and parents' attitudes, skill levels, or priorities. For example, a student with many siblings may have difficulty spending time outside of Code Club and will want to capitalise on the time during Code Club sessions, whereas those with ready access to resources and hardware through parents and their home environments, may be less concerned with progressing during Code Club sessions. If your Code Club is run at a school, some insight may come through teachers, although this will usually be general recommendations based on their knowledge of a student in order to keep up good ethical standards regarding privacy. For this reason, I'll normally leave this as something of a black box, and refer to teachers to determine which students will do well with a given project. In other situations, e.g. at a library, it might just come down to talking to parents about various challenges and working with those. In other posts I've also mentioned that we try to have set areas physically allocated for each activity, to allow students to work with other like-minded peers, and have a clear idea of numbers of students working on activities. You can also match volunteer skill sets with specific activies or group sizes. Of course some students just find their niche and excel in that area e.g. writing games or specific mobile apps. And that's ok, especially if you realise this and help them when they get stuck or need to bridge knowledge gaps in that area. I find this also helps me push myself to constantly keep learning in those areas too. By paying attention to some of these should help you get a better idea of your students' interests and progress, while giving important insight into setting the right difficulty in activities to challenge yet progress each student effectively. This helps when parents ask about holiday resources or whhen it's time to tag team high school teachers or maker groups that may inherit Code Club alumni.
+
+
